@@ -4,8 +4,6 @@ spring:
       server:
         git:
           uri: https://github.com/swapnilsamrit/TestGit
-          #username: swapnilsamrit
-          #password: Swap9850500259$
         search-paths: app1,app2
 
         force-pull: true
