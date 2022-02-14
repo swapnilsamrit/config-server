@@ -4,6 +4,8 @@ spring:
       server:
         git:
           uri: https://github.com/swapnilsamrit/TestGit
-        search-paths: app1,app2
-
-        force-pull: true
+          search-paths: "app*"
+          #clone-on-start: true
+      fail-fast: true
+server:
+  port: 8888
